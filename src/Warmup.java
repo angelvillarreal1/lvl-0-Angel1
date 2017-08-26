@@ -16,7 +16,7 @@ public class Warmup {
 		JOptionPane.showMessageDialog(null,"i know i am bad at making swords");		
 		JOptionPane.showMessageDialog(null,"i mean i just had to try");		
 		JOptionPane.showMessageDialog(null,"i quit my job im out of here!");		
-		JOptionPane.showtInputdialog
+		
 		
 		
 		
