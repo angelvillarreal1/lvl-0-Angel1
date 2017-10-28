@@ -9,7 +9,9 @@ public class Shortcuts {
 		//if{}
 		//else if{}
 		//if(number < 18){
-		
+		//for (int i = 1; i <= 10; i++) {
+		//	System.out.println(i);
+		//}
 		
 		
 		
