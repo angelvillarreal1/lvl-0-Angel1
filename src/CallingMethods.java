@@ -11,7 +11,7 @@ public class CallingMethods {
 	}
 
 	static void setname(String example) {
-		System.out.println(example);
+		System.out.println("example");
 	}
 
 	static void getnumber() {
