@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 //import javax.swing.JOptionPane;
 
 public class Shortcuts {
@@ -12,7 +14,7 @@ public class Shortcuts {
 		//for (int i = 1; i <= 10; i++) {
 		//	System.out.println(i);
 		//}
-		
+		//JOptionPane.showMessageDialog(null, "");
 		
 		
 		
