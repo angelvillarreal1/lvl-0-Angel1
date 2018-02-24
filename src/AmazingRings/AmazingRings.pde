@@ -1,18 +1,23 @@
 void setup() {
   size(1000, 1000);
-  int x = 10;
+  background(160, 160, 160);
 } 
 
 void draw() {
-  noFill();
-   for (int y = 700; y >= 10; y-=10) { 
-    for (int i = 500; i >= 10; i-=10) { 
-    ellipse(y, 400, i, i);
+  fill(255,255,255); 
+  for (int i = 700; i >= 500; i-=10) { 
+  drawCircle( i, 400);
+ 
   }
- }
-   for (int x = 300; x >= 10; x+=10) { 
-    for (int i = 500; i >= 10; i-=10) { 
-    ellipse(x, 400, i, i);
-    }
+  drawCircle(300, 400);
+}
+void drawCircle(int x, int y) {
+  for (int i = 500; i >= 10; i-=10) { 
+    ellipse( x, y, i, i);
   }
+void earaseCircle(int x, int y) {
+  for (int i = 500; i >= 10; i-=10) { 
+    ellipse( x, y, i, i);
+  }
+    
 }
