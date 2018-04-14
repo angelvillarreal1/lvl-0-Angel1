@@ -29,8 +29,8 @@ public class AdventureStory {
 			if(option2.equals("a")){
 				JOptionPane.showMessageDialog(null, "You are fresh now");
 				JOptionPane.showMessageDialog(null, "You find a turantula");
-				JOptionPane.showMessageDialog(null, "One option is to kill it" + a);
-				JOptionPane.showMessageDialog(null, "Another option is to run the other way" + b);
+				JOptionPane.showMessageDialog(null, "Another option is to run the other way" + a);
+				JOptionPane.showMessageDialog(null, "One option is to kill it" + b);
 				String option3= JOptionPane.showInputDialog("What should I do? (a) or (b)");
 				if(option3.equals("a")){
 					JOptionPane.showMessageDialog(null, "You run to Mt. Everest and freeze");
